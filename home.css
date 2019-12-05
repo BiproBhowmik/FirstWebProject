@@ -1,0 +1,230 @@
+
+h1, h2, h3, h4, h5, h6, p
+{
+	font-family: TrajanPro-Bold;
+}
+/*-------Up NavBar--------*/
+
+.navbar-brand-desktop img {
+    float: right;
+    width: 100px;
+}
+.navbar-brand-desktop h3 {
+	font-family: TrajanPro-Bold;
+	text-transform: uppercase;
+    color: #56b068;
+    float: right;
+    font-size: 37px;
+    font-weight: 500;
+    line-height: 60px;
+}
+.tel-bar {
+    padding: 10px 0 0;
+    text-align: right;
+}
+.tel-bar span{
+	font-size: 16px;
+    color: #fbfaf6;
+    font-weight: 300;
+}
+.dropdown, .member-bar, .tel-bar, .time-weather {
+    display: inline-block;
+}
+.phone-number {
+    padding-left: 10px;
+}
+.time-local {
+    display: inline-block;
+    font-size: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 1em;
+    border-right: 1px solid rgba(255, 255, 255, .08);
+    border-left: 1px solid rgba(255, 255, 255, .08);
+    color: #5cc471;
+}
+#localTime {
+    color: #fbfaf6;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.45em;
+    width: 100%;
+}
+#weather-box, .flatWeatherPlugin div.wiToday>p.wiTemperature, .time-local {
+    float: left;
+}
+#local-info {
+    float: left;
+    padding-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, .08);
+}
+#stickNav .contact-bar {
+    background-color: rgba(51, 51, 51, 0.9);
+    padding: 15px 0;
+    /*position: relative;
+    z-index: 1;*/
+}
+
+/*-----------------Navbar----------------*/
+.navbarclass{
+	background-color: #5cc471;
+}
+#navbarNav ul
+{
+	margin: auto; 
+}
+#navbarNav ul .ni
+{
+	border-right: 3px solid white;
+}
+#navbarNav .nav-link
+{
+	text-transform: uppercase;
+}
+#navbarNav .nav-link:hover
+{
+	transition: 1s;
+	background-color: #347d42;
+}
+
+/*-----------------Slider-----------------*/
+
+.slider
+{
+	opacity: 50%;
+	border: 5px solid #5cc471;
+}
+.slider img
+{
+	height: 420px;
+}
+
+/*-------------Slider Next-------------*/
+.common-marg{
+	margin-top: 8px;
+}
+.welcome-mess{
+	height: 100%;
+}
+.welcome-mess h2
+{
+	padding: 30px;
+	text-align: center;
+}
+
+.welcome-mess p
+{
+	padding: 30px;
+	text-align: justify;
+}
+
+/*---------------item------------*/
+.blog-post{
+	height: 100%;
+	background: #F2F2F2;
+    margin-bottom: 25px;
+    border-bottom: 4px solid #56b068;
+}
+.post-img img{
+	width: 100%;
+	height: 100%;
+}
+.blog-details {
+    padding: 10px;
+}
+.blog-details h4{
+	color: #555;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    margin-top: -5px;
+}
+.blog-details p {
+    color: #666;
+    font-size: 13px;
+    line-height: 24px;
+}
+.blog-post button
+{
+	background-color: #56b068;
+}
+.blog-post button:hover
+{
+    transition: .8s;
+    background-color: #347d42;
+}
+
+/*-------------Some Post-------------*/
+
+.card-thum {
+    margin-bottom: 0;
+}
+.card-thum {
+    border: 0;
+    padding: 0;
+    margin-bottom: 60px;
+}
+.clear-pad-sm img {
+    border: 1px solid #cccccc;
+    height: 200px;
+    width: 100%;
+    padding: 3px;
+}
+.card-thum .caption {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ddd;
+    padding: 30px 20px 15px;
+}
+.card-thum .caption>h3 {
+    color: #63512d;
+    margin-top: 0;
+    text-transform: uppercase;
+    font-size: 21px;
+}
+.card-thum .caption p {
+    font-size: 14px;
+    font-weight: 300;
+}
+.card-thum .caption>h3::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    border-bottom: .3rem solid #5cc471;
+    margin-top: 1.1rem;
+}
+
+/*-------------Fotter--------------*/
+
+#footer .footer-address h1 {
+    color: #63512d;
+    font-size: 23px;
+    font-weight: 300;
+}
+#footer .footer-address ul {
+    padding: 0;
+    list-style: none;
+}
+#footer .footer-address ul>li {
+    font-size: 13px;
+    color: #63512d;
+    font-weight: 300;
+}
+
+/*------------Footer Bottom----------*/
+
+.footer-copyright {
+    background-color: #5cc471;
+
+    padding: 15px 0;
+}
+.footer-copyright a {
+    font-weight: 300;
+    font-size: 14px;
+    color: #63512d;
+}
+.footer-copyright a:hover {
+    font-weight: 300;
+    font-size: 14px;
+    color: #094d17;
+}

@@ -1,0 +1,17 @@
+.gellery
+{
+	padding: 50px 0px;
+}
+
+.gellery img
+{
+	width: 100%;
+	height: 180px;
+}
+.gellery h2
+{
+	width: 100%;
+	text-align: center;
+	background-color: #56b068;
+	opacity: 50%;
+}

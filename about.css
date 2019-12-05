@@ -1,0 +1,21 @@
+.about
+{
+	padding: 10px;
+	background-color: #F2F2F2;
+}
+.about h1::after
+{
+	content: '';
+    display: block;
+    width: 25rem;
+    border-bottom: .3rem solid #5cc471;
+}
+.aboutimg img
+{
+	width: 100%;
+	float: left;
+}
+.aboutpar p
+{
+	text-align: justify;
+}
